@@ -13,3 +13,33 @@ label {
     display: none;
 }
 
+.cssMemSlider {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    padding-top: 400px;
+}
+
+img {
+    width: 700px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
