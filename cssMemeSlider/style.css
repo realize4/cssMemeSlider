@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 input:checked + label img {
@@ -29,7 +30,7 @@ body {
 }
 
 img {
-  width: 700px;
+  max-width: 700px;
   position: absolute;
   top: 0;
   left: 50%;
@@ -77,3 +78,5 @@ input + label + label {
 .radio:active {
   border: 3px solid rgb(255, 0, 0);
 }
+
+
